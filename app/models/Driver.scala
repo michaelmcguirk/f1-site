@@ -9,7 +9,9 @@ case class Driver(driverId: String,
                   givenName: Option[String],
                   familyName: Option[String],
                   dateOfBirth: Option[String],
-                  nationality: Option[String]
+                  nationality: Option[String],
+                  bestRaceResult: Option[DriverRaceResult],
+                  poles: Option[List[DriverQualiResult]]
                  )
 
 object Driver {
